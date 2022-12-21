@@ -3,7 +3,8 @@ python-osc-usb
 ==========
 
 Open Sound Control server and client implementations in **pure python** (3.5+). 
-forked from python-osc to run over USB as well as original UDP ethernet
+  forked from python-osc to run over USB as well as original UDP ethernet
+   https://github.com/attwad/python-osc
 
 .. image:: https://github.com/attwad/python-osc/actions/workflows/python-test.yml/badge.svg
     :target: https://github.com/attwad/python-osc/actions/workflows/python-test.yml
