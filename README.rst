@@ -1,8 +1,9 @@
 ==========
-python-osc
+python-osc-usb
 ==========
 
-Open Sound Control server and client implementations in **pure python** (3.5+).
+Open Sound Control server and client implementations in **pure python** (3.5+). 
+forked from python-osc to run over USB as well as original UDP ethernet
 
 .. image:: https://github.com/attwad/python-osc/actions/workflows/python-test.yml/badge.svg
     :target: https://github.com/attwad/python-osc/actions/workflows/python-test.yml
@@ -20,6 +21,8 @@ Features
 
 * UDP blocking/threading/forking/asyncio server implementations
 * UDP client
+* MJ: adding pyusb to run over USB
+   https://github.com/pyusb/pyusb
 * int, int64, float, string, double, MIDI, timestamps, blob OSC arguments
 * simple OSC address<->callback matching system
 * extensive unit test coverage
